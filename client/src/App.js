@@ -16,9 +16,9 @@ class App extends Component {
       <Nav/>
       <Jumbotron/>
       <Switch>
-        <Route exact path = "/" component={Search}/>
-        <Route exact path="/search" component={Search} />
-        <Route exact path="/saved" component={Saved} />
+        <Route exact path = "./pages/Search" component={Search}/>
+        <Route exact path="./pages/Search" component={Search} />
+        <Route exact path="./pages/Saved" component={Saved} />
       </Switch>
      </div>
    </Router>
